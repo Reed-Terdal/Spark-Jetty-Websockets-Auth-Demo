@@ -38,16 +38,6 @@ public class Chat {
                 ));
             }catch (Exception e){}
         });
-//        userUsernameMap.keySet().stream().filter(Session::isOpen).forEach(session -> {
-//            try {
-//                session.getRemote().sendString(String.valueOf(new JSONObject()
-//                    .put("userMessage", createHtmlMessageFromSender(sender, message))
-//                    .put("userlist", userUsernameMap.values())
-//                ));
-//            } catch (Exception e) {
-//                e.printStackTrace();
-//            }
-//        });
     }
 
     //Builds a HTML element with a sender-name, a message, and a timestamp,
